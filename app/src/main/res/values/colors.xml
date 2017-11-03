@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="fondopantalla">#E0E0E0</color>
+
+    <color name="color_light">#ffffff</color>
+    <color name="window_background">#ffffff</color>
+
+    <color name="background_header_seccion_inicio">#4B4B4B</color>
+
+    <!-- Screens background -->
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#FFBB00</color>
+    <color name="bg_screen3">#74a443</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+</resources>

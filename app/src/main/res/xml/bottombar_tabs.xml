@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        id="@+id/tab_home2"
+        icon="@drawable/ic_cursos"
+        title="Cursos"
+       />/ barColorWhenSelected="#F44336"
+        />
+    <tab
+        id="@+id/tab_person"
+        icon="@drawable/ic_reporte"
+        title="Reporte"
+       />/ barColorWhenSelected="#3F51B5"
+        />
+</tabs>

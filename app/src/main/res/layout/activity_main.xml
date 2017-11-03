@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jarvis.proyectofean.MainActivity"
+    android:background="@drawable/aula2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="45dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="¡Bienvenido!"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnlogin2"
+        android:layout_width="284dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/loginbtn"
+        android:drawablePadding="0.05dp"
+        android:gravity="center"
+        android:text="Google"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/googleplus"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Animation.AppCompat.DropDownUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:orientation="horizontal"></LinearLayout>
+
+        <TextView
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:gravity="center_vertical"
+            android:text="o"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:gravity="center_vertical"></LinearLayout>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:paddingBottom="25dp"
+        android:singleLine="false"
+        android:text="Correo Electronico"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:paddingBottom="20dp"
+        android:singleLine="false"
+        android:text="Contraseña"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnconeccion"
+        android:layout_width="284dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/iniciosesion"
+        android:drawablePadding="0.05dp"
+        android:gravity="center"
+        android:text="Conectarse"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="¿Has olvidado la contraseña?"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
+
+
+

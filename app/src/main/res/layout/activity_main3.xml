@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jarvis.proyectofean.Main3Activity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            app:srcCompat="@drawable/formulario2" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="monospace"
+            android:text="Formulario"
+            android:textColor="#00B0FF"
+            android:textSize="24sp"
+            tools:drawableLeft="@android:color/holo_blue_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="curso:"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/formcurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="curso"
+            android:textColor="@color/secondary_text"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#607D8B"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="fecha:"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/formfecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="formfecha"
+            android:textColor="@color/secondary_text"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#607D8B"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hora:"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/formhora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="formfecha"
+            android:textColor="@color/secondary_text"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#607D8B"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_view"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnqr"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonredondo"
+        android:text="Regresar"
+
+        android:textColor="@color/cardview_light_background" />
+</LinearLayout>
